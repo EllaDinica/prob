@@ -179,4 +179,8 @@
     .menu{
         display: none;
     }
+
+    #cards{
+        padding-left: 15%;
+    }
 }
