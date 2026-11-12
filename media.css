@@ -170,17 +170,24 @@
 
 /*new*/ 
 
-@media (max-width: 932px) {
+@media (max-width: 1024px) and (orientation: landscape) {
 
-    .non{
-        display: block;
+    #cards {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        overflow-x: auto;
+        padding: 0 10px;
+    }
+
+    .card {
+        flex: 0 0 320px;
+        margin-top: 30px;
     }
 
     .menu{
         display: none;
     }
-
-    #cards{
-        padding-left: 150%;
-    }
 }
+
