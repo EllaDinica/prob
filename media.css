@@ -172,6 +172,10 @@
 
 @media (max-width: 1024px) and (orientation: landscape) {
 
+    .non{
+        display: block;
+    }
+
     #cards {
         flex-direction: row;
         flex-wrap: nowrap;
